@@ -1,0 +1,266 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.nav_bar{
+    width: 100%;
+    height: 60px;
+    background-color:white; 
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.nav_bar_links{
+    display: flex;
+    gap: 40px;
+    margin-top: 21px;
+}
+
+.nav_bar_links li {
+    list-style-type: none;
+    color:  #18A0FB;
+    font-size: 15px;
+}
+
+
+.logo img{
+    width: 122.074px;
+    height: 32px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 80px; 
+}
+
+.button_login_register{
+    display:flex; 
+    gap:12px;
+    margin-left: 667px;
+    margin-right: 80px;
+}
+
+.button_login{   
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    color: #18A0FB;
+}
+
+.button_register{   
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #18A0FB;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    color:white ;
+}
+
+.top_image img{
+    width: 100%;
+    height: 1120px; 
+}
+
+.image_paragraph_and_button_div{
+    position: relative;
+    height: 960px;
+    width: 100%;
+    text-align: center;
+}
+
+.first_paragraph{
+    position: absolute;
+    width: 1392px;
+    font-size: 56px;
+    bottom: 0px;
+    color: white;
+    left: 215px;
+}
+
+.button_join{
+    position: absolute;
+    width: 192px;
+    height: 52px;
+    border: none;
+    background-color: #18A0FB;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    font-size: 17px;
+    bottom: -40px;
+    color: white;
+    left: 815px;
+}
+
+
+.sec_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 230px; 
+    column-gap: 148px;
+    row-gap: 60px;   
+}
+
+.empty_div{
+    width: 686px;
+}
+
+.sec_2 h1 {
+    width: 750px;
+    height: 144px;
+    font-size: 48px;
+}
+
+
+.sec_2 h2 {
+    font-size: 24px;
+}
+
+.sec_2 p {
+    font-size: 18px;
+    height: 90px;
+    width: 686px;
+    margin-top: 24px;
+}
+
+.button_learn_more{
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    color: #18A0FB;
+}
+
+.sec_3_with_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 200px;
+    margin-bottom: 80px; 
+    column-gap: 84px;
+    row-gap: 160px;
+}
+
+.sec_3_with_img h2 {
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+.sec_3_with_img p {
+    font-size: 18px;
+    height: 90px;
+    width: 686px;
+    margin-top: 24px;
+}
+
+.sec_3_with_img img {
+    width: 750px;
+    height: 440px; 
+}
+
+.last_sec {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    column-gap: 84px;
+}
+
+.last_sec p{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 36px;
+    width: 943px;
+    height: 100px;
+    padding-right: 50px; 
+}
+
+.button_join_today{
+    margin-top: 144px;
+    margin-bottom: 144px;
+    width: 192px;
+    height: 52px;
+    border: none;
+    background-color: #18A0FB;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    color:white ;
+}
+
+.button_contact_us{
+    margin-bottom: 144px;
+    margin-top: 144px;
+    margin-left: 45px;
+    width: 192px;
+    height: 52px;
+    background-color: white;
+    border-color:#18A0FB;
+    border-radius: 5px;
+    color: #18A0FB;
+}
+
+.footer_links{
+    width: 100%;
+    height: 60px;
+    background-color:white; 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 120px;
+}
+
+.footer_links_left, .footer_links_right{
+    display: flex;
+    margin-left: 45px;    
+}
+
+.footer_links_left li , .footer_links_right li{
+    list-style-type: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 15px;
+    width: 173px;
+    height: 24px;
+}
+
+.footer_links_logo img{
+    width: 122.074px;
+    height: 32px;
+}  
+
+hr{
+    margin-top: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+.footer_social_media{
+    display: flex;
+    justify-content:center;
+    margin-top: 92px;
+    margin-bottom: 27px;
+    gap: 10px;
+}
+
+.footer_social_media img{
+    width: 240px;
+    height: 45px; 
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 120px;
+}
